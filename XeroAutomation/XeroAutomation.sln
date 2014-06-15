@@ -10,6 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeroTest", "XeroAutoamtion\XeroTest.csproj", "{A4ACBD75-6E0E-41BC-9DDC-610E9364183A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLS", "DLLS", "{481C24C3-87EB-4486-BC53-C3F98201B16F}"
+	ProjectSection(SolutionItems) = preProject
+		DLLS\Selenium.WebDriverBackedSelenium.dll = DLLS\Selenium.WebDriverBackedSelenium.dll
+		DLLS\ThoughtWorks.Selenium.Core.dll = DLLS\ThoughtWorks.Selenium.Core.dll
+		DLLS\WebDriver.dll = DLLS\WebDriver.dll
+		DLLS\WebDriver.Support.dll = DLLS\WebDriver.Support.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
